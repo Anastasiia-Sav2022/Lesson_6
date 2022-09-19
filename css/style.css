@@ -1,0 +1,192 @@
+
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+/* li {
+	list-style: none;
+} */
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+/* Шрифти */
+
+@font-face {
+    font-family: "Lato" ;
+    src: url(../fonts/Lato-Black.woff2) format("woff2"), url(../fonts/Lato-Black.woff) format("woff");
+    flex-direction: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato" ;
+    src: url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+    flex-direction: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato" ;
+    src: url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+    flex-direction: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+/* ------Силізація----------- */
+
+.header__text{
+	font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    color: #424551;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.header-text__item--red {
+	color: red;
+}
+.conteiner {
+	max-width: 810px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-family: "Lato";
+	color: #1E212C;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 46px;
+	margin-bottom: 80px;
+	line-height: 130%;
+}
+.image {
+	margin-bottom: 60px;
+}
+.content {	
+line-height: 160%;
+color: #424551;
+	
+}
+.content__text--bold {
+    font-weight: 900;
+    font-size: 20px;
+	line-height: 150%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 24px;
+}
+.content p{
+	margin-bottom: 24px;
+}
+.content__text--selected {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+	padding: 0 0 0 58px;
+}
+.content__list {
+	padding-left: 20px;
+	margin-bottom: 24px	;
+}
+footer{
+	max-width: 810px;
+	margin: 0 auto;
+	font-weight: 700;
+	margin-bottom: 100px;
+}
+
+
+/* ----------відпрацювання----------- */
+.block-1{
+	max-width: 400px;
+	margin: 0 auto;
+	border: 5px dashed red;
+	background-color: rgb(245, 248, 79);
+	margin-bottom: 30px;
+	padding: 10px;
+	/* display: none; */
+}
+.block-2{
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	border: 5px solid green;
+	background-color: rgb(255, 241, 49);
+	max-height: 100px;
+	padding: 10px;
+	overflow: scroll;
+}
+.link{
+	display: inline-block;
+	padding-left: 500px;
+	color: rgb(0, 255, 98);
+	margin-bottom: 100px;
+}
+.botton {
+	max-width: 200px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background-color: rgb(65, 194, 211);
+	border: 3px solid rgb(13, 71, 73);
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(253, 222, 43);
+	margin: 0 auto;
+	margin-bottom: 40px;
+	overflow: hidden;
+	font-size: 24px;
+	box-shadow: 10px 10px 30px 4px red;
+}
+.oppa{
+	max-width: 300px;
+	max-height: 100px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	font-size: 16px;
+	border: 4px solid black;
+	background-color: rgb(253, 183, 52);
+	overflow: hidden;
+	opacity: 0.5;
+}
